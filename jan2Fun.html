@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function sayHello(){
+            const A = document.getElementById('number').value;
+            //document.write(A);
+            alert("welcome: "+A);
+        }
+    </script>
+</head>
+<body>
+    <p>Click the following button to call the function.</p>
+    <form>
+        <input type="text" name="fname" id="number" placeholder="Enter your name"><br>
+        <input type="button" onclick="sayHello()" value="Name">
+    </form>
+    <p>Use different text in write mentod and then try...</p>
+</body>
+</html>
